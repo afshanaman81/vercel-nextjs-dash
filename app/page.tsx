@@ -8,9 +8,10 @@ import { lusitana } from '@/app/ui/fonts';
 
 
 export default function Page() {
+
   return (
-    <main className="flex min-h-screen flex-col p-6">
-      <div className="flex h-20 shrink-0 items-end rounded-lg bg-rose-400 p-4 md:h-52">
+    <main className="flex min-h-screen flex-col p-4">
+      <div className="flex h-20 shrink-0 items-end rounded-lg bg-rose-400 p-4 md:h-40">
         <AcmeLogo />
       </div>
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
@@ -42,7 +43,7 @@ export default function Page() {
             className='hidden md:block'
             alt='Screenshots of the dashboard project showing desktop version'
           />
-          <Image 
+          <Image
             src="/hero-mobile.png"
             width={560}
             height={620}
@@ -51,6 +52,6 @@ export default function Page() {
           />
         </div>
       </div>
-    </main>
+    </main >
   );
 }
